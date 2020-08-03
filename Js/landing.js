@@ -1,4 +1,4 @@
-let welcomeText = "Hello This is a sample welcome page\nTemplate created by R Narayan\nYou can continue by signing in as guest.";
+let welcomeText = "Welcome to my portfolio!\nThe quieter you become, the more you can hear. \nCan you capture the hidden flag? \nPlease sign in as 'guest'.";
 // You can give your oqn welcome text here no need for my name
 let delay = 50;//delay in ms
 let listOfCommands = ['help', 'clear', 'ls', 'cat', 'date', 'cd', 'mv', 'rm', 'rmdir', 'touch', 'flag', 'fork', 'sudo'];
@@ -24,22 +24,22 @@ let history = [];
 let listOfFiles = {
     // If you want to add a website link use the anchor tab like in credits, href points to the url, you can give any text between<a></a>
     "About_Me.txt": () => {
-        historyCommands += "Hi I'm Narayan<br><br>"
+        historyCommands += "Hi I'm Vinayak dubey. I am a second year CSE student from VIT vellore.<br>apart from academics, i'm interested in cyber security, ethical hacking and penetration testing.<br>I am available for freelance/ part time work.<br><br>"
     },
     "Contact_Me.txt": () => {
-        historyCommands += "You can get in touch with me in any social media websites, i go by @rootnarayan<br><br>"
+        historyCommands += "Email: vinayak.dubey2019@vitstudent.ac.in<br>Twitter: <a href = 'https://twitter.com/_vinylic_' target='_blank'>_vinylic_</a><br>Instagram: <a href = 'https://www.instagram.com/vinylic_/' target='_blank'>vinylic_</a><br><br>"
 
     },
     "Github.txt": () => {
-        historyCommands += "<a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br><br>"
+        historyCommands += "<a href = 'https://github.com/viny1ic' target='_blank'>https://github.com/viny1ic</a><br><br>"
 
     },
     "Linkedin.txt": () => {
-        historyCommands += "<a href = 'https://www.linkedin.com/in/r-narayan-37644518b/' target='_blank'>https://www.linkedin.com/in/r-narayan-37644518b/</a><br><br>"
+        historyCommands += "<a href = 'https://www.linkedin.com/in/vinayak-dubey-83b3a9190/' target='_blank'>https://www.linkedin.com/in/vinayak-dubey-83b3a9190/</a><br><br>"
 
     },
     "Credits.txt": () => {
-        historyCommands += "Created by: R Narayan<br><a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br>"
+        historyCommands += "Template by my very skilled friend: R Narayan<br><a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br>"
 
     }
 };
@@ -84,8 +84,8 @@ let textInput = document.querySelector("#input");
 textInput.focus();
 
 document.querySelector(".terminal").scrollTo(0, 0);
-let historyCommands = "Hello There, <br>This is just a template with a few eater eggs ;)<br>You can use the command line to interact, start out by typing 'help'<br>Or you can use the folder view";
-let clText = '<span id = "path">guest@user:~$</span>';//this should be changed
+let historyCommands = "Hello There! welcome to my portfolio OS. <br>Because conventional portfolios are too cliche ;)<br>You can use the command line to interact, start out by typing 'help'<br>Or you can use the Side nav bar to your left";
+let clText = '<span id = "path">guest@vinylic.codes:~$</span>';//this should be changed
 his.innerHTML = historyCommands;
 
 
