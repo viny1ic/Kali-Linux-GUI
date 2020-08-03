@@ -279,14 +279,16 @@ html, body{
         }
         #ter{
         height: 84%;
-        width: 100%;
+        width: 95%;
         top: 4%;
         left: 0;
+	padding-right: 5%;
         }
         .terminal{
         width: 100%;
         height: 100%;
         padding-bottom: 7%;
+	padding-right: 5%;	
         }
         body{
             overflow: auto;
@@ -403,6 +405,8 @@ html, body{
         padding: 0;
         
         padding: 3%;
+	padding-bottom: 5%;
+	top: 5%;
         /* background-color: #bbb; */
     }
     .sinputs{
