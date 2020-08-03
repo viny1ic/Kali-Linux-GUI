@@ -1,4 +1,4 @@
-let welcomeText = "Hello! I am Vinayak Dubey.\nWelcome to my portfolio!\nThe quieter you become, the more you can hear. \nPlease sign in as 'guest'.";
+let welcomeText = "Hello! I am Vinayak Dubey.\nWelcome to my portfolio!\nThe quieter you become, the more you can hear. \nYou can continue by signing in with username 'guest'.";
 // You can give your oqn welcome text here no need for my name
 let delay = 50;//delay in ms
 let listOfCommands = ['help', 'clear', 'ls', 'cat', 'date', 'cd', 'mv', 'rm', 'rmdir', 'touch', 'flag', 'fork', 'sudo'];
