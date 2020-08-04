@@ -407,18 +407,6 @@ html, body{
     /* position: absolute; */
 }
 @media (max-width: 1300px) {
-<<<<<<< HEAD
-    .signin{
-        width: 94%;
-        left: 0;
-        margin: 0;
-        padding: 0;
-        padding: 3%;
-	padding-bottom: 5%;
-	top: 5%;
-        /* background-color: #bbb; */
-=======
->>>>>>> 009319eb2aa771827762ffa20179f00d4275b050
 
     .signin{
         width: 50%;
@@ -438,11 +426,8 @@ button{
 a{
     color: green;
 }
-<<<<<<< HEAD
-=======
 
 #welcomeText1{
     position: fixed;
     z-index: -1;
 }
->>>>>>> 009319eb2aa771827762ffa20179f00d4275b050
