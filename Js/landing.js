@@ -52,6 +52,10 @@ let listOfFiles = {
     "Credits.txt": () => {
         historyCommands += "Template by my very skilled friend: R Narayan<br><a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br>"
 
+    },
+    "Blogs.txt": () => {
+        historyCommands += "<a href = 'https://medium.com/@vinayak.delta/resolve-port-forwarding-issues-using-portmap-io-4940dbf9fa00' target='_blank'>resolve port forwarding issues using portmap.io</a><br>"
+
     }
 };
 
@@ -215,6 +219,11 @@ const contact = () => {
 const credits = () => {
     Terminalon();
     setTimeout(() => comm("cat Credits.txt", true), 100);
+    textInput.focus();
+}
+const blogs = () => {
+    Terminalon();
+    setTimeout(() => comm("cat Blogs.txt", true), 100);
     textInput.focus();
 }
 const nonSudo = (w) => {
