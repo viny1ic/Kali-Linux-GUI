@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 let welcomeText = "Hello! I am Vinayak Dubey.\nWelcome to my portfolio!\nThe quieter you become, the more you can hear. \nYou can continue by signing in with username 'guest'.";
-=======
-let welcomeText =
-    'Hello This is a sample welcome page\nTemplate created by R Narayan\nYou can continue by signing in with username guest.';
->>>>>>> cbe98f178055626e88b4607a1a51b5b1f2a26017
 // You can give your oqn welcome text here no need for my name
 let sss = welcomeText.replace('\n', '<br><br>');
 document.getElementById('welcomeText1').innerHTML = sss;
@@ -54,7 +49,6 @@ let arrowIndex = -1;
 let history = [];
 let listOfFiles = {
     // If you want to add a website link use the anchor tab like in credits, href points to the url, you can give any text between<a></a>
-<<<<<<< HEAD
     "About_Me.txt": () => {
         historyCommands += "Hi I'm Vinayak dubey. I am a second year CSE student from VIT vellore.<br>apart from academics, i'm interested in cyber security, ethical hacking and penetration testing.<br>I am available for freelance/ part time work.<br><br>"
     },
@@ -78,27 +72,6 @@ let listOfFiles = {
         historyCommands += "<a href = 'https://medium.com/@vinayak.delta/resolve-port-forwarding-issues-using-portmap-io-4940dbf9fa00' target='_blank'>resolve port forwarding issues using portmap.io</a><br>"
 
     }
-=======
-    'About_Me.txt': () => {
-        historyCommands += "Hi I'm Narayan<br><br>";
-    },
-    'Contact_Me.txt': () => {
-        historyCommands +=
-            'You can get in touch with me in any social media websites, i go by @rootnarayan<br><br>';
-    },
-    'Github.txt': () => {
-        historyCommands +=
-            "<a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br><br>";
-    },
-    'Linkedin.txt': () => {
-        historyCommands +=
-            "<a href = 'https://www.linkedin.com/in/r-narayan-37644518b/' target='_blank'>https://www.linkedin.com/in/r-narayan-37644518b/</a><br><br>";
-    },
-    'Credits.txt': () => {
-        historyCommands +=
-            "Created by: R Narayan<br><a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br>";
-    },
->>>>>>> cbe98f178055626e88b4607a1a51b5b1f2a26017
 };
 
 const listOfAuto = [...listOfCommands];
@@ -143,16 +116,9 @@ let textInput = document.querySelector('#input');
 
 textInput.focus();
 
-<<<<<<< HEAD
 document.querySelector(".terminal").scrollTo(0, 0);
 let historyCommands = "Hello There! welcome to my portfolio OS. <br>Because conventional portfolios are too cliche ;)<br>You can use the command line to interact, start out by typing 'help'<br>Or you can use the Side nav bar to your left";
 let clText = '<span id = "path">guest@vinylic.codes:~$</span>';//this should be changed
-=======
-document.querySelector('.terminal').scrollTo(0, 0);
-let historyCommands =
-    "Hello There, <br>This is just a template with a few eater eggs ;)<br>You can use the command line to interact, start out by typing 'help'<br>Or you can use the folder view";
-let clText = '<span id = "path">guest@user:~$</span>'; //this should be changed
->>>>>>> cbe98f178055626e88b4607a1a51b5b1f2a26017
 his.innerHTML = historyCommands;
 
 const autoFill = (txt) => {
@@ -288,16 +254,12 @@ const credits = () => {
     Terminalon();
     setTimeout(() => comm('cat Credits.txt', true), 100);
     textInput.focus();
-<<<<<<< HEAD
 }
 const blogs = () => {
     Terminalon();
     setTimeout(() => comm("cat Blogs.txt", true), 100);
     textInput.focus();
 }
-=======
-};
->>>>>>> cbe98f178055626e88b4607a1a51b5b1f2a26017
 const nonSudo = (w) => {
     historyCommands += "Unable to '" + w + "', Permission Denied!<br>";
 };

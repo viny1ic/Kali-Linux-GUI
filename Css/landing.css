@@ -277,21 +277,7 @@ h2 {
         width: 100%;
         height: 100%;
         padding-bottom: 7%;
-<<<<<<< HEAD
-	padding-right: 5%;	
-        }
-        body{
-            overflow: auto;
-        }
-    }
-    
-    @media (min-width: 2000px) {
-        .navbar{
-            font-size: 250%;
-        }
-=======
         padding-right: 5%;
->>>>>>> cbe98f178055626e88b4607a1a51b5b1f2a26017
     }
     body {
         overflow: auto;
