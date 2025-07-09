@@ -382,10 +382,10 @@ const flag = (s) => {
     //console.log(s)
     if (
         s[1].toEncodedString() ==
-        '3X40403V414E3X4E3Q4E413O4O5R4O4G3Q5R4Q4G475N3T5O4G495R3U4X574G3V475O4G555Q5N484G54543M'
+        '3T46413Q43464C3O4O5R4O4G3Q5R4Q4G475N3T5O4G495R3U4X574G3V475O4G555Q5N484G54543M'
     ) {
         historyCommands += '<br>Nice!!';
-        historyCommands += `<br>GG you have found the flag`;
+        historyCommands += `<br>You have found the flag. Write to me for a prize!`;
     } else {
         historyCommands += '<br>Sorry Wrong flag, Try again';
     }
@@ -448,7 +448,7 @@ const commandFunction = (c) => {
     }
     if (c == 'flag') {
         historyCommands +=
-            "Hint: Counter Strike Source was such a nice game!, with amazing bases<br>To submit flag type 'flag rootnarayan{flag}'<br>flag is present in the same format";
+            "Hint: Counter Strike Source was such a nice game!, with amazing bases<br>To submit flag type 'flag vinylic{flag}'<br>flag is present in the same format";
     } else if (s[0] == 'flag') {
         flag(s);
     }
