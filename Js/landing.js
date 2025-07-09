@@ -50,23 +50,84 @@ let history = [];
 let listOfFiles = {
     // If you want to add a website link use the anchor tab like in credits, href points to the url, you can give any text between<a></a>
     "About_Me.txt": () => {
-        historyCommands += "Hi I'm Vinayak dubey. Cybersecurity professional specialized in security engineering & incident response. Scaled infrastructures by 100x, executed critical projects for defense research organizations & military. Delivered cybersecurity training to military personnel, NGOs, & students. Passionate about open source, self hosting and infrastructure reliability. Looking to scale & lead security initiatives in high-impact environments."
+        historyCommands += `<pre style="display:inline">
+⡏⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿ Vinayak dubey
+⣿⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠁⠀⣿  Cybersecurity professional
+⣿⣧⡀⠀⠀⠀⠀⠙⠿⠿⠿⠻⠿⠿⠟⠿⠛⠉⠀⠀⠀⠀⠀⣸⣿   Scaled infrastructures by 100x
+⣿⣿⣷⣄⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿    End to End cybersecurity solutions
+⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣴⣿⣿⣿⣿    Incident response
+⣿⣿⣿⡟⠀⠀⢰⣹⡆⠀⠀⠀⠀⠀⠀⣭⣷⠀⠀⠀⠸⣿⣿⣿⣿   security engineering
+⣿⣿⣿⠃⠀⠀⠈⠉⠀⠀⠤⠄⠀⠀⠀⠉⠁⠀⠀⠀⠀⢿⣿⣿⣿   open source
+⣿⣿⣿⢾⣿⣷⠀⠀⠀⠀⡠⠤⢄⠀⠀⠀⠠⣿⣿⣷⠀⢸⣿⣿⣿  Self-hosting enthusiast
+⣿⣿⣿⡀⠉⠀⠀⠀⠀⠀⢄⠀⢀⠀⠀⠀⠀⠉⠉⠁⠀⠀⣿⣿⣿   Infrastructure reliability
+⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿    
+⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿
+</pre>Executed critical projects for defense research organizations & military. Delivered cybersecurity training to military personnel, NGOs, & students. Looking to scale & lead security initiatives in high-impact environments.`
     },
     "Contact_Me.txt": () => {
-        historyCommands += "Email: vinayak.delta@gmail.com<br>Twitter: <a href = 'https://twitter.com/_vinylic_' target='_blank'>_vinylic_</a><br><br>"
+        historyCommands += `<pre style="display:inline">
+
+           |\`-.._____..-\'|
+           :  > .  ,  <  :
+           \`./ __\`' __ \,'
+            | (|_) (|_) |         
+            ; _  .  __  :
+            \`.,' - \`-. ,'
+              \`, \`_  .'         
+              /       \\
+             /         :
+            :          |_
+           ,|  .    .  | \\
+          : :   \\   |  |  :
+          |  \\   :\`-;  ;  |       Email: vinayak.delta@gmail.com
+          :   :  | /  /   ;       Twitter: <a href = 'https://twitter.com/_vinylic_' target='_blank'>_vinylic_</a>
+           :-.'  ;'  / _,'\`------.
+           \`'\`''-\`'''-'-''--.---  )
+                        SSt \`&lt;--
+</pre>`
 
     },
     "Github.txt": () => {
-        historyCommands += "<a href = 'https://github.com/viny1ic' target='_blank'>https://github.com/viny1ic</a><br><br>"
+        historyCommands += `<pre style="display:inline">
+
+               :\\     /;               _
+              ;  \\___/  ;             ; ;
+             ,:-"'   \`"-:.            / ;
+        _   /,---.   ,---.\\   _     _; /
+        _:>((  |  ) (  |  ))<:_ ,""_,
+            \\'''''   '''''/"""",-""
+             '-.._ v _..-'      )
+               / ___   ____,..  \\
+              / /   | |   | ( \\. \\
+        ctr  / /    | |    | |  \\ \\
+             \`"     \`"     \`"    \`"
+        </pre><a href = 'https://github.com/viny1ic' target='_blank'>https://github.com/viny1ic</a><br><br>`
 
     },
     "Linkedin.txt": () => {
-        historyCommands += "<a href = 'https://www.linkedin.com/in/vinylic/' target='_blank'>https://www.linkedin.com/in/vinylic/</a><br><br>"
+        historyCommands += `<pre style="display:inline">
+
+                 __
+              __/ ^\\
+        PIYO /     \\ PIYO
+             \\_____/
+             <    \\/
+        </pre><a href = 'https://www.linkedin.com/in/vinylic/' target='_blank'>https://www.linkedin.com/in/vinylic/</a><br><br>`
+
 
     },
     "Credits.txt": () => {
-        historyCommands += "Template by me and my very skilled friend: R Narayan<br><a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br>"
-
+        historyCommands += `<pre style="display:inline"> 
+ ________________________________
+/ Template by me and R Narayan:  \\
+\\ https://github.com/bitoffabyte /
+ --------------------------------
+        \\   ^__^
+         \\  (oo)\\_______
+            (__)\\       )\\/\\
+                ||----w |
+                ||     ||
+</pre>`
     }
 };
 
@@ -113,7 +174,23 @@ let textInput = document.querySelector('#input');
 textInput.focus();
 
 document.querySelector(".terminal").scrollTo(0, 0);
-let historyCommands = "       :\     /;               _<br>      ;  \___/  ;             ; ;<br>     ,:-"'   `"-:.            / ;<br>_   /,---.   ,---.\   _     _; /<br>_:>((  |  ) (  |  ))<:_ ,-""_,"<br>    \`````   `````/""""",-""<br>     '-.._ v _..-'      )<br>       / ___   ____,..  \<br>      / /   | |   | ( \. \<br>ctr  / /    | |    | |  \ \<br>     `"     `"     `"    `"<br>Welcome to portfolio OS. <br>Use the command line to interact, start with 'help'<br>Or use the side nav bar on the left<br>Can you find the hidden flag?";
+let historyCommands = `<pre style="display:inline">
+ _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_ 
+(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)
+ (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_) 
+   _                                                _   
+ _( )_ __     _____ _   _    _ __   __ _    _  __ _( )_ 
+(_ o _)\\ \\   / /_ _| \\ | |  / \\\\ \\ / // \\  | |/ /(_ o _)
+ (_,_)  \\ \\ / / | ||  \\| | / _ \\\\ V // _ \\ | ' /  (_,_) 
+   _     \\ V /  | || |\\  |/ ___ \\| |/ ___ \\| . \\    _   
+ _( )_    \\_/  |___|_| \\_/_/   \\_\\_/_/   \\_\\_|\\_\\ _( )_ 
+(_ o _)                                          (_ o _)
+ (_,_)                                            (_,_) 
+   _      _      _      _      _      _      _      _   
+ _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_ 
+(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)
+ (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_) 
+</pre>Welcome to portfolio OS. <br>Use the command line to interact, start with 'help'<br>Or use the side nav bar on the left<br>Can you find the hidden flag?`;
 let clText = '<span id = "path">guest@vinayak.wiki:~$</span>';//this should be changed
 his.innerHTML = historyCommands;
 
