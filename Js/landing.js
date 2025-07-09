@@ -113,8 +113,8 @@ let textInput = document.querySelector('#input');
 textInput.focus();
 
 document.querySelector(".terminal").scrollTo(0, 0);
-let historyCommands = "Hello There! welcome to portfolio OS. <br>Because conventional portfolios are too cliche ;)<br>You can use the command line to interact, start out by typing 'help'<br>Or you can use the Side nav bar to your left";
-let clText = '<span id = "path">guest@vinylic.codes:~$</span>';//this should be changed
+let historyCommands = "       :\     /;               _<br>      ;  \___/  ;             ; ;<br>     ,:-"'   `"-:.            / ;<br>_   /,---.   ,---.\   _     _; /<br>_:>((  |  ) (  |  ))<:_ ,-""_,"<br>    \`````   `````/""""",-""<br>     '-.._ v _..-'      )<br>       / ___   ____,..  \<br>      / /   | |   | ( \. \<br>ctr  / /    | |    | |  \ \<br>     `"     `"     `"    `"<br>Welcome to portfolio OS. <br>Use the command line to interact, start with 'help'<br>Or use the side nav bar on the left<br>Can you find the hidden flag?";
+let clText = '<span id = "path">guest@vinayak.wiki:~$</span>';//this should be changed
 his.innerHTML = historyCommands;
 
 const autoFill = (txt) => {
