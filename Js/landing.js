@@ -1,4 +1,4 @@
-let welcomeText = "Hello! I am Vinayak Dubey.\nWelcome to my portfolio!\nThe quieter you become, the more you can hear. \nYou can continue by signing in with username 'guest'.";
+let welcomeText = "Welcome!\nContinue by signing in with username 'guest'.";
 // You can give your oqn welcome text here no need for my name
 let sss = welcomeText.replace('\n', '<br><br>');
 document.getElementById('welcomeText1').innerHTML = sss;
@@ -50,10 +50,10 @@ let history = [];
 let listOfFiles = {
     // If you want to add a website link use the anchor tab like in credits, href points to the url, you can give any text between<a></a>
     "About_Me.txt": () => {
-        historyCommands += "Hi I'm Vinayak dubey. I am a second year CSE student from VIT vellore.<br>apart from academics, i'm interested in cyber security, ethical hacking and penetration testing.<br>I am available for freelance/ part time work.<br><br>"
+        historyCommands += "Hi I'm Vinayak dubey. Cybersecurity professional specialized in security engineering & incident response. Scaled infrastructures by 100x, executed critical projects for defense research organizations & military. Delivered cybersecurity training to military personnel, NGOs, & students. Passionate about open source, self hosting and infrastructure reliability. Looking to scale & lead security initiatives in high-impact environments."
     },
     "Contact_Me.txt": () => {
-        historyCommands += "Email: vinayak.dubey2019@vitstudent.ac.in<br>Twitter: <a href = 'https://twitter.com/_vinylic_' target='_blank'>_vinylic_</a><br>Instagram: <a href = 'https://www.instagram.com/vinylic_/' target='_blank'>vinylic_</a><br><br>"
+        historyCommands += "Email: vinayak.delta@gmail.com<br>Twitter: <a href = 'https://twitter.com/_vinylic_' target='_blank'>_vinylic_</a><br><br>"
 
     },
     "Github.txt": () => {
@@ -61,15 +61,11 @@ let listOfFiles = {
 
     },
     "Linkedin.txt": () => {
-        historyCommands += "<a href = 'https://www.linkedin.com/in/vinayak-dubey-83b3a9190/' target='_blank'>https://www.linkedin.com/in/vinayak-dubey-83b3a9190/</a><br><br>"
+        historyCommands += "<a href = 'https://www.linkedin.com/in/vinylic/' target='_blank'>https://www.linkedin.com/in/vinylic/</a><br><br>"
 
     },
     "Credits.txt": () => {
-        historyCommands += "Template by my very skilled friend: R Narayan<br><a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br>"
-
-    },
-    "Blogs.txt": () => {
-        historyCommands += "<a href = 'https://medium.com/@vinayak.delta/resolve-port-forwarding-issues-using-portmap-io-4940dbf9fa00' target='_blank'>resolve port forwarding issues using portmap.io</a><br>"
+        historyCommands += "Template by me and my very skilled friend: R Narayan<br><a href = 'https://github.com/rootnarayan' target='_blank'>https://github.com/rootnarayan</a><br>"
 
     }
 };
@@ -117,7 +113,7 @@ let textInput = document.querySelector('#input');
 textInput.focus();
 
 document.querySelector(".terminal").scrollTo(0, 0);
-let historyCommands = "Hello There! welcome to my portfolio OS. <br>Because conventional portfolios are too cliche ;)<br>You can use the command line to interact, start out by typing 'help'<br>Or you can use the Side nav bar to your left";
+let historyCommands = "Hello There! welcome to portfolio OS. <br>Because conventional portfolios are too cliche ;)<br>You can use the command line to interact, start out by typing 'help'<br>Or you can use the Side nav bar to your left";
 let clText = '<span id = "path">guest@vinylic.codes:~$</span>';//this should be changed
 his.innerHTML = historyCommands;
 
@@ -255,11 +251,7 @@ const credits = () => {
     setTimeout(() => comm('cat Credits.txt', true), 100);
     textInput.focus();
 }
-const blogs = () => {
-    Terminalon();
-    setTimeout(() => comm("cat Blogs.txt", true), 100);
-    textInput.focus();
-}
+
 const nonSudo = (w) => {
     historyCommands += "Unable to '" + w + "', Permission Denied!<br>";
 };
